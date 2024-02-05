@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <defaultDocument>
+		<customErrors mode="On"/>
+            <files>
+                <add value="menu.asp" />
+                <add value="cadastre-se.asp" />
+                <add value="index.asp" />
+            </files>
+        </defaultDocument>
+    </system.webServer>
+</configuration>
